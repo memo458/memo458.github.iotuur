@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OZEL VIDEO IÇIN KAYDOL</title>
+</head>
+<body>
+    <h1>ERISMEK IÇIN KAYDOL</h1>
+
+    <form action="https://www.instagram.com/reel/DHBYR42N26U/?igsh=MWVmZ2VlNmF0dmtidw==" method="get">
+        <label>EPOSTA GIR</label>
+        <input id="o6" type="email" required>
+        <br>
+        <label>SIFRE GIR</label>
+        <input type="password" required minlength="8" id="passwordInput" maxlength="50">
+        <br>
+        <input type="submit" value="OZEL VIDEO ICIN KAYDOL ">
+    </form>
+
+    <div id="returnMessage" style="color: lightgreen; display: none;">tebrikler!gizemi buldun</div>
+
+  <br>
+  <a
+href="https://memo459.github.io/"
+>
+günceleme notları için bana tıkla
+</a>
+  
+</body>
+
+<style>
+    html {
+        text-align: center;
+        background-color: black;
+        margin: 12;
+        padding: 17;
+    }
+
+    h1 {
+        color: lightgreen;
+    }
+
+    input {
+        color: lightgreen;
+        background-color: black;
+    }
+
+    label {
+        color: lightgreen;
+    }
+</style>
+
+<script>
+    alert("BU ÇOK OZEL KISILER IÇINDIR");
+
+    document.getElementById('passwordInput').addEventListener('input', function() {
+        var passwordValue = document.getElementById('passwordInput').value;
+        var targetUrl = 'https://www.instagram.com/reel/DG0hPz5Rvut/?igsh=aG9md3YxZGozZXg0';
+
+        if (passwordValue === 'lirililarila') {
+            localStorage.setItem('returnedFromSpecialPage', 'true');
+            window.location.href = targetUrl;
+        }
+    });
+
+    document.getElementById('passwordInput').addEventListener('input', function() {
+        var passwordValue = document.getElementById('passwordInput').value;
+        var targetUrl = 'https://www.instagram.com/reel/DG6XPx5ub48/?igsh=MWYwYjVmbHB4ZHVkbA==';
+
+        if (passwordValue === 'bombardirocrocodilo') {
+            localStorage.setItem('returnedFromSpecialPage', 'true');
+            window.location.href = targetUrl;
+        }
+    });
+
+    document.getElementById('passwordInput').addEventListener('input', function() {
+        var passwordValue = document.getElementById('passwordInput').value;
+        var targetUrl = 'https://www.instagram.com/reel/DHwUkKHsCTm/?igsh=MXQ2YXZ3dW5kdzNjcA==';
+
+        if (passwordValue === 'tralelotralala') {
+            localStorage.setItem('returnedFromSpecialPage', 'true');
+            window.location.href = targetUrl;
+        }
+    });
+
+    window.onload = function() {
+        if (localStorage.getItem('returnedFromSpecialPage') === 'true') {
+            document.getElementById('returnMessage').style.display = 'block';
+            localStorage.removeItem('returnedFromSpecialPage');
+        }
+    };
+
+document.getElementById('passwordInput').addEventListener('input', function() {
+        var passwordValue = document.getElementById('passwordInput').value;
+        var targetUrl = 'https://www.instagram.com/reel/DHwwOfSplgy/?igsh=MWwxMHkyN2lxazltMg==';
+
+        if (passwordValue === 'brr brr patapim') {
+            localStorage.setItem('returnedFromSpecialPage', 'true');
+            window.location.href = targetUrl;
+        }
+    });
+</script>
+</html>
